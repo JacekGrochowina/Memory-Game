@@ -15,10 +15,12 @@
         width: calc((100% / 4) - 10px);
         @include mq(medium) {
             margin: 2px;
+            width: calc((100% / 4) - 4px);
             height: 100px !important;
         }
         @include mq(large) {
             margin: 2px;
+            width: calc((100% / 4) - 4px);
             height: 120px;
         }
         height: 140px;
