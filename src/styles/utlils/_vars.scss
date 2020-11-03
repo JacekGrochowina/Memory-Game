@@ -1,0 +1,20 @@
+$colors: (
+    leading: #21EBFF,
+    leading-dark: #091921,
+    leading-extra-dark: #040D16,
+    gray: #6F6F6F,
+    light: #FFFFFF
+);
+
+$fonts: (
+    leading: 'Open Sans'
+);
+
+$breakpoints: (
+    xsmall: (max-width: 460px),
+    small: (max-width: 640px),
+    medium: (max-width: 800px),
+    large: (max-width: 1024px),
+    xlarge: (max-width: 1200px),
+    xxlarge: (max-width: 1440px)
+);

@@ -1,0 +1,44 @@
+.game {
+    min-height: calc(100vh - 100px);
+    &__container {
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 100px);
+    }
+    &__cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__card {
+        margin: 5px;
+        width: calc((100% / 4) - 10px);
+        @include mq(medium) {
+            margin: 2px;
+            height: 100px !important;
+        }
+        @include mq(large) {
+            margin: 2px;
+            height: 120px;
+        }
+        height: 140px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        cursor: pointer;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 0;
+            height: 100%;
+            background-color: map-get($colors, leading-dark);
+            transition-property: width;
+            transition-duration: 0.25s;
+        }
+        &.hidden::before {
+            width: 100%;
+        }
+    }
+}

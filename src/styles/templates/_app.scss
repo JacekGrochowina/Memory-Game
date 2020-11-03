@@ -1,0 +1,20 @@
+.app {
+    margin: 50px 0;
+    &__settings {
+        display: block;
+        &.hidden {
+            display: none;
+        }
+    }
+    &__game {
+        display: block;
+        &.hidden {
+            display: none;
+        }
+    }
+    &__result {
+        &.hidden {
+            display: none;
+        }
+    }
+}

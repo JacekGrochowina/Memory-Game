@@ -1,0 +1,12 @@
+.header {
+    font-weight: 600;
+    color: map-get($colors, leading);
+    text-shadow: 0 0 15px rgba(map-get($colors, leading), 0.3);
+    &__h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    &__h2 {
+        font-size: 1.4rem;
+    }
+}

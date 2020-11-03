@@ -1,0 +1,4 @@
+body {
+    font-family: map-get($fonts, leading);
+    background-color: map-get($colors, leading-extra-dark);
+}

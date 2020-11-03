@@ -1,0 +1,35 @@
+.result {
+    padding: 18px 30px;
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    width: 100%;
+    max-width: 470px;
+    text-align: center;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+    z-index: 98;
+
+    opacity: 0;
+    transform: translateX(-50%) translateY(calc(-15px - 100%));
+
+    transition-property: opacity, transform;
+    transition-duration: 0.25s;
+    &.win {
+        background-color: #2dc428;
+    }
+    &.lose {
+        background-color: #d32626;
+    }
+    &__p {
+        font-weight: 600;
+        color: map-get($colors, light);
+        span {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    &.visible {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
