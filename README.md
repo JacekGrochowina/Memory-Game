@@ -14,7 +14,7 @@ Good luck and have fun!
 <br />
 <br />
 <br />
-**🔗🎮 GAME: http://jacekcv.com/projects/memory-game/**
+**🔗🎮 GAME: [http://jacekcv.com/projects/memory-game/](http://projekty.jacekcv.com/memory-game/)**
 <br />
 **🌐 My website: http://jacekcv.com/**
 <br />
